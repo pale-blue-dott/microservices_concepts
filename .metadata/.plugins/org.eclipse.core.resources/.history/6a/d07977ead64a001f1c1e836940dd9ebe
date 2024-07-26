@@ -1,0 +1,13 @@
+spring.application.name=employee-service
+
+server.port=8083
+
+#context-path : a subset of uri/url(after ip:port)that is common to all the url, w
+#wwhich is valid for the apllication
+
+#servlet-path : a subset of uri/url that is unique and maps to unique handler
+server.servlet.context-path=/api/employee/
+
+
+
+

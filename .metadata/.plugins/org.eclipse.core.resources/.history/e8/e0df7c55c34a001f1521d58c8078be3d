@@ -1,0 +1,9 @@
+spring.application.name=DiscoveryServer
+server.port=8761
+
+# eureka.client.fetch-registry : tries to establishes synch communication to
+# default eureka server running at port :8761
+eureka.client.fetch-registry=false  
+
+
+eureka.client.register-with-eureka=false

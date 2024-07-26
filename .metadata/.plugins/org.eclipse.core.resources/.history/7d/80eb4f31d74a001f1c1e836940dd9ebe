@@ -1,0 +1,10 @@
+spring.application.name=DiscoveryServer
+server.port=6565
+
+# eureka.client.fetch-registry : tries to establishes synch communication to
+# default eureka server running at port :8761 at every 30 sec
+# if port is 8761, it fetches its own registry
+eureka.client.fetch-registry=false
+
+#self-registry : discovery server tries registers itself on its client dashboard (http://localhost:{8761})
+eureka.client.register-with-eureka=false

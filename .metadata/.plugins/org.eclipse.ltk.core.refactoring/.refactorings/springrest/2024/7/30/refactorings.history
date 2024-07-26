@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.springrest.springrest.entity.Entity&apos; to &apos;Course&apos;&#x0D;&#x0A;- Original project: &apos;springrest&apos;&#x0D;&#x0A;- Original element: &apos;com.springrest.springrest.entity.Entity&apos;&#x0D;&#x0A;- Renamed element: &apos;com.springrest.springrest.entity.Course&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Entity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springrest.springrest.entity{Entity.java[Entity" matchStrategy="1" name="Course" qualified="false" references="true" similarDeclarations="false" stamp="1721759347024" textual="false" version="1.0"/>
+</session>

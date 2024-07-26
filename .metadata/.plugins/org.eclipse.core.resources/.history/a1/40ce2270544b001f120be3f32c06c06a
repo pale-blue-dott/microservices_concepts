@@ -1,0 +1,25 @@
+spring.application.name=employee-service
+
+server.port=8083
+
+
+#context-path : a subset of uri/url(after ip:port)that is common to all the url, w
+#wwhich is valid for the apllication
+
+#servlet-path : a subset of uri/url that is unique and maps to unique handler
+server.servlet.context-path=/api/employee
+addressservice.base.url=http://localhost:8083/api/employee
+
+#by-default services tends to look for discovery-server at 8761, if there is no d.s. at 8761
+#we enforce the service to look at the provided port for d.s. not 8761
+
+!eureka.client.service-url.defaultZone=9876
+
+#in case we want to inform service of multiple d.s. on network we can do so as below 
+
+!eureka.client.service-url.z1=http://localhost:6300/eureka/
+!eureka.client.service-url.z2=http://localhost:9607/eureka/
+
+
+
+
